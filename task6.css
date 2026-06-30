@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.box {
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+}
+
+.container-pictures {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-box {
+    border: 10px solid goldenrod;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;
+
+
+}
+
+.box-number {
+    width: 25%;
+    height: 33.3%;
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.container-color {
+    display: grid;
+    grid-template-columns: 1 fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    row-gap: 10px;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.box1 {
+    grid-column: span 3;
+    background-color: black;
+}
+
+.box2 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: gold;
+}
+
+.box3 {
+    grid-row: span 2;
+    background-color: green;
+}
+
+.box4 {
+    grid-column: span 3;
+    background-color: blue;
+}
+
+.container-flexbox {
+    display: flex;
+    height: 95vh;
+    border: 10px solid gold;
+    text-align: center;
+}
+
+.col {
+    width: 100%;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+
+}
