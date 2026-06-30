@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.container-signup {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(138, 88, 185);
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 6px rgba(149, 60, 237, 0.4);
+    width: 25%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;    
+    position: relative;  
+    top:150px ; 
+    left:550px;
+}
+.name-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.inpute-signupdesign {
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+
+}
+
+.button-signup {
+    width: 70%;
+    background-color: rgb(157, 156, 156);
+    color: gray;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.container-login{
+    position: relative;
+    top:140px;
+    left: 250px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    background-color: white;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding:80px 0;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+    align-items: center;
+}
+.input-form{
+    width: 70%;
+    height: 50px;
+    background: #e8e8e8;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 18px;
+    gap: 20px;
+
+}
+.member-input{
+    border: none;
+        background: transparent;
+
+}
+
+.member-button{
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    width: 75%;
+    height: 40px;
+    border: none;
+
+}

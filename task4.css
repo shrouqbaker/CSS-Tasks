@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -41,8 +44,7 @@ main{
 p{
    font-size:18px;
 }
-.card {
-    
+.card {    
     position: relative;
     top:150px;
     display: flex;
