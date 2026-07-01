@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+}
+
+.container-linkedin {
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-linkedin {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 5px 6px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 15px;
+    margin-left: 2px;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+
+.input-linkedin {
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+}
+
+.button-linkedin {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    width: 90%;
+    margin: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider span {
+    color: #999;
+    font-size: 14px;
+}
+
+.position {
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+
+.container-scratch {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.header-scratch {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+
+}
+.a-scratch{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:10px ;
+}
+.card-scratch{
+    position: relative;
+    top:130px;
+    left: 600px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-scratch{
+    height: 30px;
+    border-radius: 5px;
+}
+.button-scratch{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+}
+.container-login{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 100vw;
+    background-color: rgb(41, 151, 151);
+     align-items: center;
+     justify-content: center;
+
+}
+.card-login{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 4px 3px rgba(0, 0, 0, 0.2) ;
+    
+}
+.input-login{
+    height: 40px;
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1) ;
+border: 1px solid rgb(214, 214, 214);
+
+
+}
+.button-login{
+    width: 20%;
+    background-color: rgb(41, 151, 151);
+    border-radius: 15px;
+    height: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.a-login{
+    color: rgb(41, 151, 151);
+
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.container-userlogin{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 151, 151);
+}
+.card-userlogin{
+    background-color: white;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 15 10px; 
+    border-radius: 10px;  
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 5px 4px 3px rgba(0,0,0,0.2);
+    padding: 20px 10px;
+
+}
+.label-userlogin{
+    font-weight: bold;
+    color: rgb(41, 151, 151);;
+    text-align: start;
+    align-items: start;
+    width: 90%;
+
+}
+.input-userlogin{
+    border: none;
+    border-bottom: 2px solid rgb(41, 151, 151);;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.button-userlogin{
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color: rgb(41, 151, 151);
+    border: none;
+    margin-bottom: 10px;
+
+}

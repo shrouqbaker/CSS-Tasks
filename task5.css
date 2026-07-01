@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -10,19 +11,25 @@ body{
 
 
 }
-.box-text{
+
+.box-text {
     background-color: rgb(219, 219, 219);
     width: 20%;
 }
-hr{
+
+hr {
     font-weight: bold;
 }
-.container-text{
+
+.container-text {
     font-weight: bold;
     font-size: 18px;
     margin: 15px;
+    height: 100px;
+    overflow-y: scroll;
 }
-.container-articles{
+
+.container-articles {
     background-color: lemonchiffon;
     display: flex;
     flex-direction: column;
@@ -31,27 +38,31 @@ hr{
     gap: 15px;
 
 }
-.orange{
+
+.orange {
     background-color: orange;
 }
 
-.yellow{
+.yellow {
     background-color: yellow;
 }
-.article{
+
+.article {
     border: 2px solid black;
-   
+
     background-color: white;
     width: 80%;
     margin: 0 15px;
     padding: 20px;
 
 }
-.container-fixed{
+
+.container-fixed {
     width: 95vw;
     margin: 20px;
 }
-img{
+
+img {
 
     position: sticky;
     top: 20px;
@@ -59,4 +70,4 @@ img{
     width: 180px;
     height: 500px;
     border: 2px solid black;
-}   
+}
